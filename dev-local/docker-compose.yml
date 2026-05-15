@@ -1,0 +1,58 @@
+services:
+  surrealdb:
+    image: surrealdb/surrealdb:v2
+    # Start SurrealDB with local storage and root access
+    command: start --user root --pass password --bind 0.0.0.0:8000 rocksdb:/mydata/mydatabase.db
+    user: root
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./surreal_data:/mydata
+    restart: always
+
+  open_notebook:
+    image: lfnovo/open_notebook:v1-latest
+    ports:
+      - "8502:8502"  # Web UI
+      - "5055:5055"  # REST API
+    
+    # Connects to your host machine's Ollama (running with AMD GPU)
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+    environment:
+      # --- MANDATORY SECURITY ---
+      - OPEN_NOTEBOOK_ENCRYPTION_KEY=123456  # Change this for production!
+
+      # --- DATABASE CONFIGURATION ---
+      - SURREAL_URL=ws://surrealdb:8000/rpc
+      - SURREAL_USER=root
+      - SURREAL_PASSWORD=password
+      - SURREAL_NAMESPACE=open_notebook
+      - SURREAL_DATABASE=open_notebook
+
+      # --- PERFORMANCE & MULTI-WORKER TUNING ---
+      # Max concurrent DB tasks (increased for high performance)
+      - SURREAL_COMMANDS_MAX_TASKS=10 
+      # Batch sizes for embeddings and TTS processing
+      - OPEN_NOTEBOOK_EMBEDDING_BATCH_SIZE=50
+      - TTS_BATCH_SIZE=5
+
+      # --- RETRY STRATEGY (Prevents crashes during high-concurrency) ---
+      - SURREAL_COMMANDS_RETRY_ENABLED=true
+      - SURREAL_COMMANDS_RETRY_MAX_ATTEMPTS=5
+      - SURREAL_COMMANDS_RETRY_WAIT_STRATEGY=exponential_jitter
+
+      # --- TIMEOUTS (Ensures local LLM has time to respond) ---
+      - API_CLIENT_TIMEOUT=600
+      - ESPERANTO_LLM_TIMEOUT=300
+
+      # --- OLLAMA CONNECTION ---
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+      
+    volumes:
+      - ./notebook_data:/app/data
+    depends_on:
+      - surrealdb
+    restart: always
+    pull_policy: always

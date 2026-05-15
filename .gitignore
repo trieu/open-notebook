@@ -1,4 +1,6 @@
 .env
+*/ollama_models/
+dev-local/ollama_models/
 prompts/patterns/user/
 /notebooks/
 data/
