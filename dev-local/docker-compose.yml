@@ -48,7 +48,10 @@ services:
       - ESPERANTO_LLM_TIMEOUT=300
 
       # --- OLLAMA CONNECTION ---
-      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+      # FIX: Open Notebook uses OLLAMA_API_BASE instead of OLLAMA_BASE_URL.
+      # This prevents malformed URL construction that triggers Ollama's 307 redirects.
+      - OLLAMA_API_BASE=http://host.docker.internal:11434
+      - OLLAMA_CONTEXT_LENGTH=65536
       
     volumes:
       - ./notebook_data:/app/data
