@@ -1,197 +1,80 @@
-<a id="readme-top"></a>
+# LEO Agentic Notebook
 
-<!-- [![Contributors][contributors-shield]][contributors-url] -->
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
+🚀 AI-native workspace for enterprise knowledge orchestration, autonomous agents, and collaborative intelligence.
 
+LEO Agentic Notebook transforms fragmented business data, documents, APIs, databases, and customer knowledge into an operational AI workspace where humans and AI agents collaborate together.
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/lfnovo/open-notebook">
-    <img src="docs/assets/hero.svg" alt="Logo">
-  </a>
+Current UI version 1.0
+![screenshot1](ui-designs/screenshot-version-1.png)
 
-  <h3 align="center">Open Notebook</h3>
-
-  <p align="center">
-    An open source, privacy-focused alternative to Google's Notebook LM!
-    <br /><strong>Join our <a href="https://discord.gg/37XJPXfz2w">Discord server</a> for help, to share workflow ideas, and suggest features!</strong>
-    <br />
-    <a href="https://www.open-notebook.ai"><strong>Checkout our website »</strong></a>
-    <br />
-    <br />
-    <a href="docs/0-START-HERE/index.md">📚 Get Started</a>
-    ·
-    <a href="docs/3-USER-GUIDE/index.md">📖 User Guide</a>
-    ·
-    <a href="docs/2-CORE-CONCEPTS/index.md">✨ Features</a>
-    ·
-    <a href="docs/1-INSTALLATION/index.md">🚀 Deploy</a>
-  </p>
-</div>
-
-<p align="center">
-<a href="https://trendshift.io/repositories/14536" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14536" alt="lfnovo%2Fopen-notebook | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-</p>
-
-<div align="center">
-  <!-- Keep these links. Translations will automatically update with the README. -->
-  <a href="https://zdoc.app/de/lfnovo/open-notebook">Deutsch</a> | 
-  <a href="https://zdoc.app/es/lfnovo/open-notebook">Español</a> | 
-  <a href="https://zdoc.app/fr/lfnovo/open-notebook">français</a> | 
-  <a href="https://zdoc.app/ja/lfnovo/open-notebook">日本語</a> | 
-  <a href="https://zdoc.app/ko/lfnovo/open-notebook">한국어</a> | 
-  <a href="https://zdoc.app/pt/lfnovo/open-notebook">Português</a> | 
-  <a href="https://zdoc.app/ru/lfnovo/open-notebook">Русский</a> | 
-  <a href="https://zdoc.app/zh/lfnovo/open-notebook">中文</a>
-</div>
-
-## A private, multi-model, 100% local, full-featured alternative to Notebook LM
-
-![New Notebook](docs/assets/asset_list.png)
-
-In a world dominated by Artificial Intelligence, having the ability to think 🧠 and acquire new knowledge 💡, is a skill that should not be a privilege for a few, nor restricted to a single provider.
-
-**Open Notebook empowers you to:**
-- 🔒 **Control your data** - Keep your research private and secure
-- 🤖 **Choose your AI models** - Support for 18+ providers including OpenAI, Anthropic, Ollama, LM Studio, and more
-- 📚 **Organize multi-modal content** - PDFs, videos, audio, web pages, and more
-- 🎙️ **Generate professional podcasts** - Advanced multi-speaker podcast generation
-- 🔍 **Search intelligently** - Full-text and vector search across all your content
-- 💬 **Chat with context** - AI conversations powered by your research
-- 🌐 **Multi-language UI** - English, Portuguese, Chinese (Simplified & Traditional), Japanese, Russian, and Bengali support
-
-Learn more about our project at [https://www.open-notebook.ai](https://www.open-notebook.ai)
+The UI of version 2.0
+![screenshot2](ui-designs/screenshot-version-2.png)
 
 ---
 
-## 🆚 Open Notebook vs Google Notebook LM
+## ✨ Why LEO Agentic Notebook
 
-| Feature | Open Notebook | Google Notebook LM | Advantage |
-|---------|---------------|--------------------|-----------|
-| **Privacy & Control** | Self-hosted, your data | Google cloud only | Complete data sovereignty |
-| **AI Provider Choice** | 18+ providers (OpenAI, Anthropic, Ollama, LM Studio, etc.) | Google models only | Flexibility and cost optimization |
-| **Podcast Speakers** | 1-4 speakers with custom profiles | 2 speakers only | Extreme flexibility |
-| **Content Transformations** | Custom and built-in | Limited options | Unlimited processing power |
-| **API Access** | Full REST API | No API | Complete automation |
-| **Deployment** | Docker, cloud, or local | Google hosted only | Deploy anywhere |
-| **Citations** | Basic references (will improve) | Comprehensive with sources | Research integrity |
-| **Customization** | Open source, fully customizable | Closed system | Unlimited extensibility |
-| **Cost** | Pay only for AI usage | Free tier + Monthly subscription | Transparent and controllable |
+Modern enterprises operate with:
 
-**Why Choose Open Notebook?**
-- 🔒 **Privacy First**: Your sensitive research stays completely private
-- 💰 **Cost Control**: Choose cheaper AI providers or run locally with Ollama
-- 🎙️ **Better Podcasts**: Full script control and multi-speaker flexibility vs limited 2-speaker deep-dive format
-- 🔧 **Unlimited Customization**: Modify, extend, and integrate as needed
-- 🌐 **No Vendor Lock-in**: Switch providers, deploy anywhere, own your data
+* scattered documents
+* disconnected databases
+* siloed analytics systems
+* fragmented customer platforms
+* isolated AI workflows
 
-### Built With
+LEO Agentic Notebook unifies these systems into a single AI-native operational workspace.
 
-[![Python][Python]][Python-url] [![Next.js][Next.js]][Next-url] [![React][React]][React-url] [![SurrealDB][SurrealDB]][SurrealDB-url] [![LangChain][LangChain]][LangChain-url]
+Built for:
 
-## 🚀 Quick Start (2 Minutes)
+* 🤖 AI-native teams
+* 📊 Customer intelligence
+* 🧠 Research & strategy
+* 📈 Growth & marketing operations
+* 🔄 Agentic AI workflows
+* 🏢 Enterprise knowledge systems
+* ⚡ Big Data & CDP environments
 
-### Prerequisites
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed
-- That's it! (API keys configured later in the UI)
+Unlike traditional AI notebooks, LEO Agentic Notebook provides:
 
-### Step 1: Get docker-compose.yml
+* 🧩 Multi-source knowledge orchestration
+* 🤖 AI agents and workflows
+* 🧠 Unified business context
+* 🔌 Enterprise-grade integrations
+* 💾 Structured memory and retrieval
+* 👥 Human + AI collaboration
+* 🔒 Private and self-hosted deployment
 
-**Option A:** Download directly
-```bash
-curl -o docker-compose.yml https://raw.githubusercontent.com/lfnovo/open-notebook/main/docker-compose.yml
-```
-
-**Option B:** Create the file manually
-Copy this into a new file called `docker-compose.yml`:
-
-```yaml
-services:
-  surrealdb:
-    image: surrealdb/surrealdb:v2
-    command: start --log info --user root --pass root rocksdb:/mydata/mydatabase.db
-    user: root
-    ports:
-      - "8000:8000"
-    volumes:
-      - ./surreal_data:/mydata
-    restart: always
-
-  open_notebook:
-    image: lfnovo/open_notebook:v1-latest
-    ports:
-      - "8502:8502"
-      - "5055:5055"
-    environment:
-      - OPEN_NOTEBOOK_ENCRYPTION_KEY=change-me-to-a-secret-string
-      - SURREAL_URL=ws://surrealdb:8000/rpc
-      - SURREAL_USER=root
-      - SURREAL_PASSWORD=root
-      - SURREAL_NAMESPACE=open_notebook
-      - SURREAL_DATABASE=open_notebook
-    volumes:
-      - ./notebook_data:/app/data
-    depends_on:
-      - surrealdb
-    restart: always
-```
-
-### Step 2: Set Your Encryption Key
-Edit `docker-compose.yml` and change this line:
-```yaml
-- OPEN_NOTEBOOK_ENCRYPTION_KEY=change-me-to-a-secret-string
-```
-to any secret value (e.g., `my-super-secret-key-123`)
-
-### Step 3: Start Services
-```bash
-docker compose up -d
-```
-
-Wait 15-20 seconds, then open: **http://localhost:8502**
-
-### Step 4: Configure AI Provider
-1. Go to **Settings** → **API Keys**
-2. Click **Add Credential**
-3. Choose your provider (OpenAI, Anthropic, Google, etc.)
-4. Paste your API key and click **Save**
-5. Click **Test Connection** → **Discover Models** → **Register Models**
-
-Done! You're ready to create your first notebook.
-
-> **Need an API key?** Get one from:
-> [OpenAI](https://platform.openai.com/api-keys) · [Anthropic](https://console.anthropic.com/) · [Google](https://aistudio.google.com/) · [Groq](https://console.groq.com/) (free tier)
-
-> **Want free local AI?** See [examples/docker-compose-ollama.yml](examples/) for Ollama setup
+> LEO Agentic Notebook is not just a note-taking tool.
+> It is an AI operating system for knowledge work.
 
 ---
 
-### 📚 More Installation Options
+# 🧠 Core Features
 
-- **[With Ollama (Free Local AI)](examples/docker-compose-ollama.yml)** - Run models locally without API costs
-- **[From Source (Developers)](docs/1-INSTALLATION/from-source.md)** - For development and contributions
-- **[Complete Installation Guide](docs/1-INSTALLATION/index.md)** - All deployment scenarios
+## 🔗 Unified Knowledge Sources
+
+Connect and orchestrate knowledge from:
+
+* 🌐 URLs and websites
+* 📄 PDFs, DOCX, XLSX, CSV
+* 🗄️ PostgreSQL, BigQuery, ClickHouse
+* 🔌 APIs and webhooks
+* 👥 LEO CDP customer segments
+* 📊 Internal datasets
+* 🏗️ Data warehouse tables
+* 📈 Marketing and analytics platforms
 
 ---
 
-### 📖 Need Help?
+## 🤖 AI-native Workspace
 
-- **🤖 AI Installation Assistant**: [CustomGPT to help you install](https://chatgpt.com/g/g-68776e2765b48191bd1bae3f30212631-open-notebook-installation-assistant)
-- **🆘 Troubleshooting**: [5-minute troubleshooting guide](docs/6-TROUBLESHOOTING/quick-fixes.md)
-- **💬 Community Support**: [Discord Server](https://discord.gg/37XJPXfz2w)
-- **🐛 Report Issues**: [GitHub Issues](https://github.com/lfnovo/open-notebook/issues)
-
----
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=lfnovo/open-notebook&type=date&legend=top-left)](https://www.star-history.com/#lfnovo/open-notebook&type=date&legend=top-left)
-
+* 🧠 AI-powered notebooks
+* 💬 Persistent conversations
+* 🗂️ Structured reasoning
+* 🔍 Context-aware retrieval
+* 🧩 Multi-session memory
+* 👥 Collaborative research workflows
+* ⚡ Human + AI co-working environment
 
 ## Provider Support Matrix
 
@@ -219,143 +102,191 @@ Thanks to the [Esperanto](https://github.com/lfnovo/esperanto) library, we suppo
 
 *Supports LM Studio and any OpenAI-compatible endpoint
 
-## ✨ Key Features
+---
 
-### Core Capabilities
-- **🔒 Privacy-First**: Your data stays under your control - no cloud dependencies
-- **🎯 Multi-Notebook Organization**: Manage multiple research projects seamlessly
-- **📚 Universal Content Support**: PDFs, videos, audio, web pages, Office docs, and more
-- **🤖 Multi-Model AI Support**: 18+ providers including OpenAI, Anthropic, Ollama, Google, LM Studio, and more
-- **🎙️ Professional Podcast Generation**: Advanced multi-speaker podcasts with Episode Profiles
-- **🔍 Intelligent Search**: Full-text and vector search across all your content
-- **💬 Context-Aware Chat**: AI conversations powered by your research materials
-- **📝 AI-Assisted Notes**: Generate insights or write notes manually
+## ⚙️ Agentic AI Runtime
 
-### Advanced Features
-- **⚡ Reasoning Model Support**: Full support for thinking models like DeepSeek-R1 and Qwen3
-- **🔧 Content Transformations**: Powerful customizable actions to summarize and extract insights
-- **🌐 Comprehensive REST API**: Full programmatic access for custom integrations [![API Docs](https://img.shields.io/badge/API-Documentation-blue?style=flat-square)](http://localhost:5055/docs)
-- **🔐 Optional Password Protection**: Secure public deployments with authentication
-- **📊 Fine-Grained Context Control**: Choose exactly what to share with AI models
-- **📎 Citations**: Get answers with proper source citations
+* 🤖 Autonomous AI agents
+* 🔄 Multi-step workflows
+* 🧠 AI task orchestration
+* ⚡ Workflow automation
+* 🛠️ Tool integrations
+* 🔗 Context-sharing between agents
+* 🚀 AI operational pipelines
 
+---
 
-## Podcast Feature
+## 📊 Enterprise Intelligence Layer
 
-[![Check out our podcast sample](https://img.youtube.com/vi/D-760MlGwaI/0.jpg)](https://www.youtube.com/watch?v=D-760MlGwaI)
+* 👤 Customer 360 intelligence
+* 📈 Marketing analytics
+* 📦 Product analytics
+* 📑 AI-powered reporting
+* 🧠 Executive dashboards
+* 🎯 Customer segmentation
+* 📡 Behavioral intelligence
+* 🏢 Decision support systems
 
-## 📚 Documentation
+---
 
-### Getting Started
-- **[📖 Introduction](docs/0-START-HERE/index.md)** - Learn what Open Notebook offers
-- **[⚡ Quick Start](docs/0-START-HERE/quick-start.md)** - Get up and running in 5 minutes
-- **[🔧 Installation](docs/1-INSTALLATION/index.md)** - Comprehensive setup guide
-- **[🎯 Your First Notebook](docs/0-START-HERE/first-notebook.md)** - Step-by-step tutorial
+## 🏗️ AI Infrastructure
 
-### User Guide
-- **[📱 Interface Overview](docs/3-USER-GUIDE/interface-overview.md)** - Understanding the layout
-- **[📚 Notebooks](docs/3-USER-GUIDE/notebooks.md)** - Organizing your research
-- **[📄 Sources](docs/3-USER-GUIDE/sources.md)** - Managing content types
-- **[📝 Notes](docs/3-USER-GUIDE/notes.md)** - Creating and managing notes
-- **[💬 Chat](docs/3-USER-GUIDE/chat.md)** - AI conversations
-- **[🔍 Search](docs/3-USER-GUIDE/search.md)** - Finding information
+* 🤖 Multi-model support
+* 🧠 OpenAI, Anthropic, Gemini, Ollama
+* 🔄 LangGraph orchestration
+* 📚 RAG pipelines
+* 🔎 Vector search
+* 💾 Structured memory systems
+* 🔒 Self-hosted deployment
+* 🏢 Enterprise-ready architecture
 
-### Advanced Topics
-- **[🎙️ Podcast Generation](docs/2-CORE-CONCEPTS/podcasts.md)** - Create professional podcasts
-- **[🔧 Content Transformations](docs/2-CORE-CONCEPTS/transformations.md)** - Customize content processing
-- **[🤖 AI Models](docs/4-AI-PROVIDERS/index.md)** - AI model configuration
-- **[🔌 MCP Integration](docs/5-CONFIGURATION/mcp-integration.md)** - Connect with Claude Desktop, VS Code and other MCP clients
-- **[🔧 REST API Reference](docs/7-DEVELOPMENT/api-reference.md)** - Complete API documentation
-- **[🔐 Security](docs/5-CONFIGURATION/security.md)** - Password protection and privacy
-- **[🚀 Deployment](docs/1-INSTALLATION/index.md)** - Complete deployment guides for all scenarios
+---
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+# 🧩 Architecture
 
-## 🗺️ Roadmap
+screenshot.png
+![Architecture flow](flow.png)
 
-### Upcoming Features
-- **Live Front-End Updates**: Real-time UI updates for smoother experience
-- **Async Processing**: Faster UI through asynchronous content processing
-- **Cross-Notebook Sources**: Reuse research materials across projects
-- **Bookmark Integration**: Connect with your favorite bookmarking apps
+```text
+Knowledge Sources Layer
+    ├── URLs
+    ├── Files
+    ├── Databases
+    ├── APIs
+    ├── CDP Segments
+    └── Internal Datasets
+                ↓
+Knowledge Context Layer
+                ↓
+Agent Runtime & Memory
+                ↓
+Notebook Workspace
+                ↓
+Workflow Orchestration
+                ↓
+Operational Intelligence
+```
 
-### Recently Completed ✅
-- **Next.js Frontend**: Modern React-based frontend with improved performance
-- **Comprehensive REST API**: Full programmatic access to all functionality
-- **Multi-Model Support**: 18+ AI providers including OpenAI, Anthropic, Ollama, LM Studio
-- **Advanced Podcast Generator**: Professional multi-speaker podcasts with Episode Profiles
-- **Content Transformations**: Powerful customizable actions for content processing
-- **Enhanced Citations**: Improved layout and finer control for source citations
-- **Multiple Chat Sessions**: Manage different conversations within notebooks
+---
 
-See the [open issues](https://github.com/lfnovo/open-notebook/issues) for a full list of proposed features and known issues.
+# 🛠️ Built With
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Keep the strong OSS ecosystem from the original project:
 
+[![Python][Python]][Python-url]
+[![Next.js][Next.js]][Next-url]
+[![React][React]][React-url]
+[![FastAPI][FastAPI]][FastAPI-url]
+[![PostgreSQL][PostgreSQL]][PostgreSQL-url]
+[![LangChain][LangChain]][LangChain-url]
+[![LangGraph][LangGraph]][LangGraph-url]
+[![Redis][Redis]][Redis-url]
+[![TailwindCSS][TailwindCSS]][TailwindCSS-url]
 
-## 📖 Need Help?
-- **🤖 AI Installation Assistant**: We have a [CustomGPT built to help you install Open Notebook](https://chatgpt.com/g/g-68776e2765b48191bd1bae3f30212631-open-notebook-installation-assistant) - it will guide you through each step!
-- **New to Open Notebook?** Start with our [Getting Started Guide](docs/0-START-HERE/index.md)
-- **Need installation help?** Check our [Installation Guide](docs/1-INSTALLATION/index.md)
-- **Want to see it in action?** Try our [Quick Start Tutorial](docs/0-START-HERE/quick-start.md)
+Core technologies:
 
-## 🤝 Community & Contributing
+* ⚡ FastAPI
+* ⚛️ Next.js
+* 🎨 TailwindCSS + shadcn/ui
+* 🧠 LangGraph
+* 🔗 LangChain
+* 🗄️ PostgreSQL
+* ⚡ Redis
+* 📊 Kafka
+* 🔄 Celery / Temporal
 
-### Join the Community
-- 💬 **[Discord Server](https://discord.gg/37XJPXfz2w)** - Get help, share ideas, and connect with other users
-- 🐛 **[GitHub Issues](https://github.com/lfnovo/open-notebook/issues)** - Report bugs and request features
-- ⭐ **Star this repo** - Show your support and help others discover Open Notebook
+---
 
-### Contributing
-We welcome contributions! We're especially looking for help with:
-- **Frontend Development**: Help improve our modern Next.js/React UI
-- **Testing & Bug Fixes**: Make Open Notebook more robust
-- **Feature Development**: Build the coolest research tool together
-- **Documentation**: Improve guides and tutorials
+# 🚀 Core Use Cases
 
-**Current Tech Stack**: Python, FastAPI, Next.js, React, SurrealDB
-**Future Roadmap**: Real-time updates, enhanced async processing
+## 👤 Customer Intelligence
 
-See our [Contributing Guide](CONTRIBUTING.md) for detailed information on how to get started.
+* Customer 360 analysis
+* Segmentation insights
+* Behavioral analytics
+* Marketing optimization
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🧠 AI Research Workspace
 
+* Multi-source research
+* Knowledge synthesis
+* AI-assisted analysis
+* Strategic planning
 
-## 📄 License
+## 🏢 Enterprise Knowledge Hub
 
-Open Notebook is MIT licensed. See the [LICENSE](LICENSE) file for details.
+* Internal documentation
+* Organizational memory
+* Cross-team collaboration
+* Decision intelligence
 
+## 🤖 AI Workflow Automation
 
-**Community Support**:
-- 💬 [Discord Server](https://discord.gg/37XJPXfz2w) - Get help, share ideas, and connect with users
-- 🐛 [GitHub Issues](https://github.com/lfnovo/open-notebook/issues) - Report bugs and request features
-- 🌐 [Website](https://www.open-notebook.ai) - Learn more about the project
+* Agentic workflows
+* Automated reporting
+* Data enrichment
+* AI operational pipelines
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 📈 Marketing & Growth Intelligence
 
+* Campaign analysis
+* Performance analytics
+* Customer journey analysis
+* AI-powered growth operations
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/lfnovo/open-notebook.svg?style=for-the-badge
-[contributors-url]: https://github.com/lfnovo/open-notebook/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/lfnovo/open-notebook.svg?style=for-the-badge
-[forks-url]: https://github.com/lfnovo/open-notebook/network/members
-[stars-shield]: https://img.shields.io/github/stars/lfnovo/open-notebook.svg?style=for-the-badge
-[stars-url]: https://github.com/lfnovo/open-notebook/stargazers
-[issues-shield]: https://img.shields.io/github/issues/lfnovo/open-notebook.svg?style=for-the-badge
-[issues-url]: https://github.com/lfnovo/open-notebook/issues
-[license-shield]: https://img.shields.io/github/license/lfnovo/open-notebook.svg?style=for-the-badge
-[license-url]: https://github.com/lfnovo/open-notebook/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/lfnovo
-[product-screenshot]: images/screenshot.png
+---
+
+# 🔓 Open Source Philosophy
+
+LEO Agentic Notebook is designed as:
+
+* open
+* extensible
+* AI-native
+* enterprise-ready
+* self-hosted
+* developer-friendly
+
+The goal is to provide an open platform where organizations can build their own AI-native operational intelligence systems without vendor lock-in.
+
+---
+
+# 📄 License
+
+LEO Agentic Notebook
+
+Copyright 2026 Triều and contributors
+
+Licensed under the Apache License, Version 2.0
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+---
+
+# 🌍 Vision
+
+From fragmented enterprise data
+→ to connected knowledge
+→ to autonomous intelligence
+→ to AI-native organizations.
+
+<!-- MARKDOWN LINKS -->
+
+[Python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+[Python-url]: https://www.python.org/
 [Next.js]: https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white
 [Next-url]: https://nextjs.org/
 [React]: https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black
 [React-url]: https://reactjs.org/
-[Python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
-[Python-url]: https://www.python.org/
+[FastAPI]: https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white
+[FastAPI-url]: https://fastapi.tiangolo.com/
+[PostgreSQL]: https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white
+[PostgreSQL-url]: https://www.postgresql.org/
 [LangChain]: https://img.shields.io/badge/LangChain-3A3A3A?style=for-the-badge&logo=chainlink&logoColor=white
 [LangChain-url]: https://www.langchain.com/
-[SurrealDB]: https://img.shields.io/badge/SurrealDB-FF5E00?style=for-the-badge&logo=databricks&logoColor=white
-[SurrealDB-url]: https://surrealdb.com/
+[LangGraph]: https://img.shields.io/badge/LangGraph-000000?style=for-the-badge
+[LangGraph-url]: https://www.langchain.com/langgraph
+[Redis]: https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white
+[Redis-url]: https://redis.io/
+[TailwindCSS]: https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+[TailwindCSS-url]: https://tailwindcss.com/

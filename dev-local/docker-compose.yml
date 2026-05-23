@@ -13,8 +13,9 @@ services:
   open_notebook:
     image: lfnovo/open_notebook:v1-latest
     ports:
-      - "8502:8502"  # Web UI
-      - "5055:5055"  # REST API
+      # Bind exclusively to localhost so Nginx can handle the public facing ports
+      - "127.0.0.1:8502:8502"  # Web UI
+      - "127.0.0.1:15055:5055"  # REST API
     
     # Connects to your host machine's Ollama (running with AMD GPU)
     extra_hosts:
@@ -23,6 +24,11 @@ services:
     environment:
       # --- MANDATORY SECURITY ---
       - OPEN_NOTEBOOK_ENCRYPTION_KEY=123456  # Change this for production!
+      
+      # --- APP AUTHENTICATION ---
+      # Set your global login password here. 
+      # Users will be prompted for this password on their first visit.
+      - OPEN_NOTEBOOK_PASSWORD=377516
 
       # --- DATABASE CONFIGURATION ---
       - SURREAL_URL=ws://surrealdb:8000/rpc
@@ -51,7 +57,7 @@ services:
       # FIX: Open Notebook uses OLLAMA_API_BASE instead of OLLAMA_BASE_URL.
       # This prevents malformed URL construction that triggers Ollama's 307 redirects.
       - OLLAMA_API_BASE=http://host.docker.internal:11434
-      - OLLAMA_CONTEXT_LENGTH=65536
+      - OLLAMA_CONTEXT_LENGTH=16384
       
     volumes:
       - ./notebook_data:/app/data
