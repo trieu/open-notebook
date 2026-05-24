@@ -117,6 +117,15 @@ desktop.ini
 # Log files
 *.log
 
+# Dev stack runner (start-dev.sh / start-dev.ps1)
+logs/
+.dev-pids
+start-dev.ps1
+start-dev.sh
+stop-dev.ps1
+stop-dev.sh
+frontend/package-lock.json
+
 # Database files
 *.db
 *.sqlite3

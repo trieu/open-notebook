@@ -1,0 +1,3 @@
+# Generated k6 HTML reports — keep the folder, ignore its contents.
+*
+!.gitignore
