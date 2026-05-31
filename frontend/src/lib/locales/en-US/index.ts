@@ -121,6 +121,8 @@ export const enUS = {
     editTransformation: "Edit Transformation",
     retry: "Try Again",
     traditionalChinese: "繁體中文",
+    german: "Deutsch",
+    vietnamese: "Tiếng Việt",
     portuguese: "Português",
     completed: "completed",
     saveSuccess: "Saved successfully",

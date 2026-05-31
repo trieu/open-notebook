@@ -11,11 +11,12 @@ services:
     restart: always
 
   open_notebook:
-    image: lfnovo/open_notebook:v1-latest
+    #image: lfnovo/open_notebook:v1-latest
+    image: lfnovo/open_notebook:local
     ports:
       # Bind exclusively to localhost so Nginx can handle the public facing ports
       - "127.0.0.1:8502:8502"  # Web UI
-      - "127.0.0.1:15055:5055"  # REST API
+      - "127.0.0.1:5055:5055"  # REST API
     
     # Connects to your host machine's Ollama (running with AMD GPU)
     extra_hosts:

@@ -94,6 +94,14 @@ export function LanguageToggle({ iconOnly = false }: LanguageToggleProps) {
         >
           <span>Deutsch</span>
         </DropdownMenuItem>
+
+         <DropdownMenuItem
+          onClick={() => setLanguage('vn-VN')}
+          className={currentLang === 'vn-VN' || currentLang.startsWith('vn') ? 'bg-accent' : ''}
+        >
+          <span>{t('common.vietnamese')}</span>
+        </DropdownMenuItem>
+
       </DropdownMenuContent>
     </DropdownMenu>
   )
